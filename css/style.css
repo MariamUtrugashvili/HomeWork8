@@ -123,3 +123,32 @@
         transform: rotate(360deg);
     }
 }
+
+/* Exercise 5 */
+.HW5 {
+    background-color: rgb(42, 40, 40);
+    display: flex;
+    padding: 45px 170px;
+    margin-bottom: 50px;
+}
+
+.HW5Nav {
+    width: 100%;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.HW5link {
+    font-size: 50px;
+    color: wheat;
+    text-shadow: 5px 5px 5px black;
+    transition: 1s;
+}
+
+.HW5link:hover {
+    text-shadow: 0 0 15px purple, 0 0 30px purple, 0 0 50px purple, 0 0 90px purple;
+}
