@@ -79,3 +79,47 @@
         color: white;
     }
 }
+
+
+/* Exercise 4 */
+.HW4 {
+    margin: 50px;
+    width: 200px;
+    height: 200px;
+    position: relative;
+}
+
+.HW4spinner {
+    border: 15px solid;
+    border-color: #950ead #ba0508 #0c2db4 #09b500;
+    width: 100%;
+    height: 100%;
+    border-radius: 60%;
+    animation: rotation 1s linear infinite;
+}
+
+.HW4spinner:hover {
+    cursor: pointer;
+    animation-play-state: paused;
+}
+
+.HW4text{
+    position: absolute;
+    font-size: 24px;
+    color: #762251;
+    font-weight: 900;
+    transform: translate(-50%, -50%);
+    padding:20px;
+    top: 50%;
+    left: 50%;
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
