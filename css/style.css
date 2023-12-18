@@ -7,6 +7,8 @@
     height: 170px;
     background-color: #d98db7;
     justify-content: center;
+    margin-top: 20px;
+    margin-left: 20px;
 }
 
 .button1 {
@@ -27,3 +29,35 @@
     cursor:pointer;
 }
 
+
+/* Exercise 2 */
+.HW2 {
+    width: 350px;
+    transition-delay: 1s;
+    transition-property: border-radius, box-shadow;
+    padding: 25px;
+    margin: 40px;
+    border-radius: 15px;
+    margin-left: 20px;
+} 
+
+.catImg {
+    width: 100%;
+    object-fit: contain;
+    transition-property: border-radius;
+    transition-delay: 1s;
+}
+
+.catTXT {
+    color: rgb(109, 31, 101);
+    margin-top: 5px;
+}
+
+.HW2:hover {
+    cursor: pointer;
+    box-shadow: 0 0 7px purple, 0 0 15px purple;
+}
+
+.HW2:hover .catImg {
+    border-radius: 20px 25px 0 0;
+}
