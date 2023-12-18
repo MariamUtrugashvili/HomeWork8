@@ -1,0 +1,29 @@
+/* Exercise 1 */
+
+.HW1{
+    display: flex;
+    width: 400px;
+    align-items: center;
+    height: 170px;
+    background-color: #d98db7;
+    justify-content: center;
+}
+
+.button1 {
+    width: 300px;
+    height: 80px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    background-color: #d98db7;
+    box-shadow: 3px 3px 3px white inset, 3px 3px 3px black;
+    text-shadow: 3px 3px 3px black;
+}
+
+.button1:active {
+    text-shadow: 1px 1px 6px black;
+    box-shadow: 3px 3px 3px 1px black inset, -2px -2px 6px 1px white inset;
+    cursor:pointer;
+}
+
